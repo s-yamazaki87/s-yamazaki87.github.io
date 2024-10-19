@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:lc="http://www.librecad.org" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" viewBox="0 0 100 100">
-  <g lc:layername="MainLine" lc:is_locked="false" lc:is_construction="false" fill="none" stroke="#ffffff" stroke-width="10">
-    <line x1="20" y1="20" x2="80" y2="80"/>
-    <line x1="20" y1="80" x2="80" y2="20"/>
-  </g>
-</svg>
