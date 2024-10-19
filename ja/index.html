@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <!-- Page meta data -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./items/base-style.css">
+        <style type="text/css">
+            #menu-container {
+                position: static;
+            }
+            .main-list {
+                line-height: 20px;
+            }
+            a {
+                color: rgba(0, 0, 0, 1);
+            }
+            .news-button {
+                color: rgba(0, 0, 0, 1);
+                border: 2px ridge rgba(0, 0, 0, 1);
+                font-weight: bold;
+                padding: 10px;
+            }
+            .news-button:hover {
+                background-color: rgb(128, 128, 128);
+                color: rgba(255, 255, 255, 1);
+            }
+        </style>
+        <link rel="icon" type="image/svg" href="./items/icon.svg">
+        <script type="text/javascript" charset="UTF-8" src="./items/base-script.js"></script>
+        <meta name="author" content="Comm.Lab">
+        <meta name="description" content="東海大学 情報通信学部 情報通信学科 山崎悟史 山崎研究室">
+        <meta name="keywords" content="東海大学, 情報通信学部, 情報通信学科, 山崎悟史, 山崎研究室">
+        <meta name="format-detection" content="telephone=no">
+        <meta property="og:title" content="ホーム - Comm. Lab.">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="当研究室では、主に新たな無線通信方式の創出とセンサデータの統計的解析に基づく知識発見の実現に向けて、理論と実際の両面から研究を進めています。これらの成果を通じて、微力ながらIoT/CPSの進展に寄与することを目標としています。">
+        <meta property="og:url" content="http://user.numazu-ct.ac.jp/~s-yamazaki/">
+        <meta property="og:site_name" content="山崎研究室HP - Comm. Lab.">
+        <meta property="og:image" content="./items/logo.png">
+        <link rel="alternate" hreflang="ja" href="http://user.numazu-ct.ac.jp/~s-yamazaki/ja/index.html">
+        <link rel="alternate" hreflang="en" href="http://user.numazu-ct.ac.jp/~s-yamazaki/en/index.html">
+        <link rel="alternate" hreflang="x-default" href="http://user.numazu-ct.ac.jp/~s-yamazaki/en/index.html">
+        <title>ホーム - Comm. Lab.</title>
+    </head>
+
+    <!-- Page contents data -->
+    <body>
+        <!-- Headder contents -->
+        <header>
+        </header>
+
+        <!-- Main contents -->
+        <table cellspacing="0" cellpadding="0" id="main-contents">
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <img src="./items/head.jpg" style="width: 100%;">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="line-side" valign="top"></td>
+                    <td id="line-main" valign="top">
+                        <h1 style="margin-top: 20px; color: rgba(0, 0, 238, 1);">Welcome</h1>
+                        <div class="main-container main-text">
+                            我々のHPにお越し頂き、ありがとうございます。
+                            当研究室では、新たな無線通信・ネットワーク方式の創出やそれらを活用したIoTデータサイエンスに基づく知識発見に向けて、理論と実際の両面から研究を進めています。
+                            これらの成果を通じて、微力ながらIoT/CPSの進展に寄与することを目標としています。
+                        </div>
+
+                        <h1 style="color: rgba(0, 0, 238, 1);">News</h1>
+                        <div class="main-container" style="overflow-y: scroll; height: 220px;">
+                            <ul class="main-list">
+                                <li class="main-list-cnt">2024.04.01 東海大学情報通信学部情報通信学科に着任いたしました。</li>
+                                <!--
+                                <li class="main-list-cnt">2023.12.04 IEEE Access (IF 3.476) に論文が掲載決定しました。</li>
+                                <li class="main-list-cnt">2023.11.30 2014年にS4担任した梶田君(豊橋技科大修士卒→現スズキ)がテクノフォーラム参加前に研究室を訪問し近況報告してくれました。</li>
+                                <li class="main-list-cnt">2023.11.11 2018年にS4担任した佐野君(現電通大M2)、伊藤君(現某企業)が高専祭時に研究室を訪問し近況報告してくれました。</li>
+                                <li class="main-list-cnt">2023.11.08 山崎教員(R5進学担当)が学科説明会にて保護者に本年度の大学編入学結果について総括報告をしました。</li>
+                                <li class="main-list-cnt">2023.10.28 山崎教員が「情報技術基礎講座⑧ －データサイエンスの基礎2－」と題する公開講座を実施しました。参加者の皆様、ありがとうございました。</li>
+                                <li class="main-list-cnt">2023.09.29 一般財団法人 新技術振興渡辺記念会 令和5年度国際交流援助に採択されました。</li>
+                                <li class="main-list-cnt">2023.09.07 国際会議28th Asia-Pacific Conference on Communications (APCC2023)に論文(full paper)が採択されました。</li>
+                                <li class="main-list-cnt">2023.08.17 小倉大輝君(2021本科卒，現長岡技科大B4)が研究室を訪問してくれました。</li>
+                                <li class="main-list-cnt">2023.08.05 山崎教員がオープンキャンパス（一日体験入学）にて"インターネットで情報が伝わる仕組み"と題するミニ講義を実施しました。聴講者の皆様、ありがとうございました。</li>
+                                <li class="main-list-cnt">2023.06.15 国際会議IEEE 34th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC 2023)に論文(full paper)が採択されました。</li>
+                                <li class="main-list-cnt">2023.06.07 山崎教員が(社)電子情報技術産業協会(JEITA)スマートセンシングとその社会実装技術分科会にて招待講演を行いました。</li>
+                                <li class="main-list-cnt">2023.04.14 メンバーが更新されました。</li>
+                                <li class="main-list-cnt">2023.04.03 公益財団法人高橋産業経済研究財団 令和5年度研究助成(研究代表者)に採択されました。</li>
+                                <li class="main-list-cnt">2023.03.21 卒業式が行われました。<a href="./news/20230321.html">卒業生</a>の更なるご活躍を期待いたします。</li>
+                                <li class="main-list-cnt">2023.03.18 山崎教員が<a href="./news/20230318.html">某企業にてデータサイエンスに関する講義</a>を行いました。</li>
+                                <li class="main-list-cnt">2023.03.17 <a href="./news/20230317.html">古木君が電子情報通信学会東海支部学業成績優秀賞を受賞</a>しました。おめでとう！</li>
+                                <li class="main-list-cnt">2023.03.08 松本君と古木君が<a target="blank" href="https://www.ieice-taikai.jp/2023general/jpn/index.html">電子情報通信学会総合大会</a>にて<a href="./news/20230309.html">研究成果を発表</a>しました。</li>
+                                <li class="main-list-cnt">2023.02.18 <a href="./news/20230218.html">2018年度卒の研究室学生</a>と再会しました。</li>
+                                <li class="main-list-cnt">2023.02.26 投稿論文(letter)がIEEJ Trans. Ele. Info. and Sys.に掲載決定。</li>
+                                <li class="main-list-cnt">2023.01.19 山崎教員が電気学会通信研究会付設３調査専門委員会にて研究成果を発表しました。</li>
+                                <li class="main-list-cnt">2022.11.10 鈴木康介君(2020専攻科卒，現電通大M2)が研究室を訪問してくれました。</li>
+                                <li class="main-list-cnt">2022.10.29 鈴木諒君(2019卒)が高専祭時に研究室を訪問してくれました。</li>
+                                <li class="main-list-cnt">2022.08.25 小倉君が電子情報通信学会RCS研究会にて発表しました。</li>
+                                <li class="main-list-cnt">2022.08.20 山崎教員が<a target="blank" href="https://www.numazu-ct.ac.jp/news/1622/">「情報技術基礎講座⑦ －データサイエンスの基礎－」と題する公開講座</a>を実施しました。参加者の皆様、ありがとうございました。</li>
+                                <li class="main-list-cnt">2022.07.24 山崎教員がオープンキャンパス（一日体験入学）</a>にて<a href="./news/20220724.html">"インターネットの仕組み"と題するミニ講義を実施</a>しました（午後・計2回）。聴講者の皆様、ありがとうございました。</li>
+                                <li class="main-list-cnt">2022.04.15 メンバーが更新されました。</li>
+                                <li class="main-list-cnt">2022.03.21 山崎教員が<a target="blank" href="https://www.iee.jp/blog/taikai2022/">令和4年度電気学会全国大会のシンポジウム講演</a>にて発表しました。</li>
+                                <li class="main-list-cnt">2022.03.20 卒業式が行われました。卒業生の更なるご活躍を期待いたします。</li>
+                                <li class="main-list-cnt">2022.03.16 <a href="./news/20220316.html">OB中嶋君</a>と研究上有益な議論をさせて頂きました。</li>
+                                <li class="main-list-cnt">2022.03.15 小倉君が<a target="blank" href="https://www.ieice-taikai.jp/2022general/jpn/index.html">2022年度電子情報通信学会総合大会</a>にて発表しました。</li>
+                                <li class="main-list-cnt">2022.03.14 山崎教員の居室と研究室（通信ネットワーク研究室）の場所が、専攻科2F（旧長谷教員居室、旧制御工学実験室）へ移動しました。</li>
+                                <li class="main-list-cnt">2022.03.09 LoRaWANの研究成果が沼津朝日新聞（2面）に報道されました。</li>
+                                <li class="main-list-cnt">2022.03.04 小倉君が<a target="blank" href="https://sites.google.com/view/ieice-tokai-section-2021/">電子情報通信学会東海支部令和3(2021))年度卒業研究発表会</a>にて発表しました。</li>
+                                <li class="main-list-cnt">2022.02.17 LoRaWANの研究成果が伊豆日日新聞（1面）に報道されました。</li>
+                                <li class="main-list-cnt">2021.10.10 山崎教員が<a target="blank" href="https://www.numazu-ct.ac.jp/admission/opencampus/trial_class">「中学生のための体験授業」</a>にて<a href="./news/20211010.html">"インターネットはどのような仕組みで動いているの？"と題する授業を実施</a>しました（90分/回。午前と午後で計2回）。<a href="https://www.numazu-ct.ac.jp/blog/news-admission/20286.html">参加者の皆様、ありがとうございました。</a></li>
+                                <li class="main-list-cnt">2021.09.17 山崎教員が<a target="blank" href="https://www.ieice-taikai.jp/2021society/jpn/registration.html">電子情報通信学会ソサエティ大会</a>にて発表しました。</li>
+                                <li class="main-list-cnt">2021.09.09 公益財団法人電気通信普及財団研究調査助成報告書(第36号)が公開されました。</li>
+                                <li class="main-list-cnt">2021.09.09 山崎教員が<a target="blank" href="https://www.ieice.org/ken/paper/20210909QCFR/">電子情報通信学会NS研究会</a>にて発表しました。</li>
+                                <li class="main-list-cnt">2021.07.31 山崎教員が<a target="blank" href="https://www.numazu-ct.ac.jp/admission/opencampus/trial_enrollment">オープンキャンパス（一日体験入学）</a>にて<a href="./news/20210731.html">"IoTって何？"と題するミニ講義を実施</a>しました（午前と午後で計2回）。聴講者の皆様、ありがとうございました。</li>
+                                <li class="main-list-cnt">2021.05.07 鈴木君(2020専攻科卒)が電子情報通信学会東海支部学生研究奨励賞を受賞しました。</a></li>
+                                <li class="main-list-cnt">2021.04.16 メンバーが更新されました。</li>
+                                <li class="main-list-cnt">2021.03.22 <a target="blank" href="https://researchmap.jp/7000002644/published_papers/31957377">佐原君(2016本科卒)が筆頭著者の投稿論文</a>がIEEJ Trans. Ele. Info. and Sys.に掲載決定。</a></li>
+                                <li class="main-list-cnt">2021.03.20 鈴木君が専攻科研究活動功労賞を受賞しました。おめでとうございます！</li>
+                                <li class="main-list-cnt">2021.03.20 卒業式が行われました。卒業生の更なるご活躍を期待いたします。</li>
+                                <li class="main-list-cnt">2021.03.12 鈴木君が電気学会電気学術奨励賞を受賞しました。<a target="blank" href="https://www.numazu-ct.ac.jp/blog/news-student/19056.html">おめでとうございます！</a></li>
+                                <li class="main-list-cnt">2021.03.09 鈴木君が<a target="blank" href="https://www.ieice-taikai.jp/2021general/jpn/">電子情報通信学会総合大会</a>にて発表しました。</li>
+                                <li class="main-list-cnt">2021.01.21 鈴木君が筆頭著者の投稿論文が<a target="blank" href="https://ieeexplore.ieee.org/document/9335640">IEEE Communications Letters</a>に掲載決定。</li>
+-->
+                            </ul>
+                        </div>
+
+                        <div class="main-container" style="text-align: right;">
+                            <a style="text-decoration: none;" href="./news-archive.html">
+<!--
+                                <span class="news-button">過去のNEWS</span>
+-->
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Footer contents -->
+        <footer>
+        </footer>
+    </body>
+</html>
