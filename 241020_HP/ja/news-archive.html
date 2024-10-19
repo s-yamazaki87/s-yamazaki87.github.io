@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <!-- Page meta data -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./items/base-style.css">
+        <style type="text/css">
+            .main-list {
+                line-height: 20px;
+            }
+            a {
+                color: rgba(0, 0, 0, 1);
+            }
+            .news-button {
+                color: rgba(0, 0, 0, 1);
+                border: 3px ridge rgba(0, 0, 0, 1);
+                font-weight: bold;
+                padding: 10px;
+            }
+            .news-button:hover {
+                background-color: rgb(128, 128, 128);
+                color: rgba(255, 255, 255, 1);
+            }
+        </style>
+        <link rel="icon" type="image/svg" href="./items/icon.svg">
+        <script type="text/javascript" charset="UTF-8" src="./items/base-script.js"></script>
+        <script type="text/javascript" charset="UTF-8">
+            function listSwitch (year) {
+                switch (year) {
+                    case 2020:
+                        document.getElementById("news-field").innerHTML = `
+                            <ul class="main-list">
+                                <li class="main-list-cnt">2021.03.22 <a target="blank" href="https://researchmap.jp/7000002644/published_papers/31957377">佐原君(2016本科卒)が筆頭著者の投稿論文</a>がIEEJ Trans. Ele. Info. and Sys.に掲載決定。</a></li>
+                                <li class="main-list-cnt">2021.03.20 鈴木君が専攻科研究活動功労賞を受賞しました。おめでとうございます！</li>
+                                <li class="main-list-cnt">2021.03.20 卒業式が行われました。卒業生の更なるご活躍を期待いたします。</li>
+                                <li class="main-list-cnt">2021.03.12 鈴木君が電気学会電気学術奨励賞を受賞しました。<a target="blank" href="https://www.numazu-ct.ac.jp/blog/news-student/19056.html">おめでとうございます！</a></li>
+                                <li class="main-list-cnt">2021.03.09 鈴木君が<a target="blank" href="https://www.ieice-taikai.jp/2021general/jpn/">電子情報通信学会総合大会</a>にて発表しました。</li>
+                                <li class="main-list-cnt">2021.01.21 鈴木君が筆頭著者の投稿論文が<a target="blank" href="https://ieeexplore.ieee.org/document/9335640">IEEE Communications Letters</a>に掲載決定。</li>
+                                <li class="main-list-cnt">2020.12.03 桑原君(2018専攻科卒)が<a target="blank" href="https://www.ieice.org/ken/paper/20201203ECBU/">電子情報通信学会IT研究会</a>にて発表しました。</li>
+                                <li class="main-list-cnt">2020.11.23 電気通信大学安達研究室のwebサイトに<a target="blank" href="http://www.awcc.uec.ac.jp/adachilab/introduction/">IoTに関する共同研究成果</a>が紹介されました。</li>
+                                <li class="main-list-cnt">2020.11.18 <a target="blank" href="https://researchmap.jp/7000002644/misc/30904335">桑原君(2018専攻科卒)が筆頭著者のregular paper</a>が<a target="blank" href="http://icoin.org/main.php">国際会議ICOIN2021</a>にacceptされました。</li>
+                                <li class="main-list-cnt">2020.11.16 LoRa通信の研究成果が伊豆日日新聞に報道されました。</li>
+                                <li class="main-list-cnt">2020.11.05 LoRa通信の研究成果が沼津朝日新聞に報道されました。</li>
+                                <li class="main-list-cnt">2020.10.19 鈴木君が<a target="blank" href="https://wpmc2020.wpmc-home.com/">WPMC2020 Best Student Paper Award</a>を受賞しました。<a target="blank" href="https://www.numazu-ct.ac.jp/blog/news-student/18659.html">おめでとうございます！</a></li>
+                                <li class="main-list-cnt">2020.09.18 鈴木君が<a target="blank" href="https://www.ieice-taikai.jp/2020society/jpn/index.html">電子情報通信学会ソサエティ大会</a>にて発表しました。</li>
+                                <li class="main-list-cnt">2020.09.03 <a target="blank" href="https://researchmap.jp/7000002644/misc/29948608">鈴木君が筆頭著者のregular paper</a>が<a target="blank" href="https://wpmc2020.wpmc-home.com/">国際会議WPMC2020</a>にacceptされました。</li>                                
+                                <li class="main-list-cnt">2020.08.18 投稿論文が<a target="blank" href="https://researchmap.jp/7000002644/published_papers/29432262">電気学会論文誌C</a>に掲載決定。</li>
+                                <li class="main-list-cnt">2020.07.15 投稿論文が<a target="blank" href="https://researchmap.jp/7000002644/published_papers/29272323">International Journal of Wireless Comm. and Mobile Compu.</a>に掲載決定。</li>
+                                <li class="main-list-cnt">2020.07.08 鈴木君が<a target="blank" href="https://www.ieice.org/ken/paper/20200708d1Z5/">電子情報通信学会RCS研究会</a>にて発表しました。</li>
+                                <li class="main-list-cnt">2020.06.24 鈴木君が<a target="blank" href="https://www.ieice.org/ken/paper/20200624y1yA/">電子情報通信学会RCS研究会</a>にて原稿発表しました。</li>
+                                <li class="main-list-cnt">2020.05.25 メンバーが更新されました。</li>
+                            </ul>`
+                        break;
+                    case 2019:
+                        document.getElementById("news-field").innerHTML = `
+                            <ul class="main-list">
+                                <li class="main-list-cnt">2020.03.29 <a href="./news/20200329.html">OB安孫子君(静岡大M2)、相原君(電通大M2)</a>らと研究上有益な議論をさせて頂きました。</li>
+                                <li class="main-list-cnt">2020.03.28 <a target="blank" href="https://aoi-forum.jp/">AOIフォーラム</a>のwebサイトに、<a target="blank" href="https://aoi-forum.jp/members/5558/">本校における農業関係の研究紹介</a>が掲載されました。</li>
+                                <li class="main-list-cnt">2020.03.27 <a target="blank" href="https://www.taf.or.jp/">公益財団法人電気通信普及財団</a>の<a target="blank" href="https://www.taf.or.jp/files/items/1589/File/2019%E5%B9%B4%E5%BA%A6-%E7%A0%94%E7%A9%B6%E8%AA%BF%E6%9F%BB%E5%8A%A9%E6%88%90-%E9%80%9A%E5%B8%B8%E6%9E%A0.pdf">2019年度研究調査助成(通常枠)</a>に採択されました。</li>
+                                <li class="main-list-cnt">2020.03.20 <a target="blank" href="https://www.iee.jp/tokyo/award/encourage/r01/">中嶋君が電気学会電気学術奨励賞を受賞</a>しました。<a target="blank" href="https://www.numazu-ct.ac.jp/blog/news-student/16939.html">おめでとうございます！</a></li>
+                                <li class="main-list-cnt">2020.03.20 <a target="blank" href="http://www2.pref.shizuoka.jp/all/kisha19.nsf/c3db48f94231df2e4925714700049a4e/f7eaf0be72ee349e49258504002beed0?OpenDocument">中嶋君が静岡県知事褒章を受賞</a>しました。おめでとうございます！</li>
+                                <li class="main-list-cnt">2020.03.02 投稿論文(letter)が<a target="blank" href="https://researchmap.jp/7000002644/published_papers/24630448">IEICE Trans. on Fundamentals</a>にacceptされました。</li>
+                                <li class="main-list-cnt">2020.02.14 <a target="blank" href="https://www.gijutu.co.jp/doc/magazine/R_2020_02.htm">技術雑誌「研究開発リーダー」2020年2月号に寄稿</a>しました。</li>
+                                <li class="main-list-cnt">2020.02.01 <a target="blank" href="https://researchmap.jp/7000002644/misc/27815847">中嶋君が筆頭著者の論文が</a><a target="blank" href="http://www2.iee.or.jp/~diic/samcon/">SAMCON2020</a>にacceptされました。</li>
+                                <li class="main-list-cnt">2020.01.20 <a target="blank" href="http://www.numazu-ct.ac.jp/blog/news/16662.html">山崎教員が「沼津高専とともに歩む議員連盟」主催の研修会にて講演</a>しました。</li>
+                                <li class="main-list-cnt">2020.01.16 山崎教員が<a target="blank" href="http://www.newton.or.jp/">東海情報通信懇談会</a>の<a target="blank" href="http://www.newton.or.jp/meibo/index.html">特別会員</a>になりました。</li>
+                                <li class="main-list-cnt">2020.01.10 Sigfox通信の研究成果が伊豆日日新聞に報道されました。</li>
+                                <li class="main-list-cnt">2020.01.07 Sigfox通信の研究成果が沼津朝日新聞に報道されました。</li>
+                                <li class="main-list-cnt">2019.12.07 <a href="./news/20191207.html">OB佐原君</a>が研究室に立ち寄ってくれました。</li>
+                                <li class="main-list-cnt">2019.11.30 本校で開催された日本育種学会第27回中部談話会にてポスター展示しました。</li>
+                                <li class="main-list-cnt">2019.11.09 <a target="blank" href="http://www.numazu-ct.ac.jp/blog/news/16224.html">山崎教員がベイズ統計に関する公開講座を実施</a>しました。</li>
+                                <li class="main-list-cnt">2019.11.06 <a href="./news/20191106.html">中嶋君が電子情報通信学会SeMI研究会にて発表</a>しました。</li>
+                                <li class="main-list-cnt">2019.11.02 <a href="./news/20191102.html">OB亀山君</a>が高専祭で来校の際に研究室に立ち寄ってくれました。</li>
+                                <li class="main-list-cnt">2019.10.13 ホームページを開設いたしました。 </li>
+                            </ul>`
+                        break;
+                    default:
+                        break;
+                }
+            }
+        </script>
+        <meta name="author" content="Comm.Lab">
+        <meta name="description" content="東海大学 情報通信学部 情報通信学科 山崎悟史 山崎研究室">
+        <meta name="keywords" content="東海大学, 情報通信学部, 情報通信学科, 山崎悟史, 山崎研究室, IoT, 無線通信, 無線ネットワーク, データサイエンス">
+        <meta name="format-detection" content="telephone=no">
+        <meta property="og:title" content="過去の NEWS - Comm. Lab.">
+        <meta property="og:type" content="article">
+        <meta property="og:description" content="当研究室では、主に新たな無線通信方式の創出とセンサデータの統計的解析に基づく知識発見の実現に向けて、理論と実際の両面から研究を進めています。これらの成果を通じて、微力ながらIoT/CPSの進展に寄与することを目標としています。">
+        <meta property="og:site_name" content="山崎研究室HP - Comm. Lab.">
+        <meta property="og:image" content="./items/logo.png">
+        <title>過去の NEWS - Comm. Lab.</title>
+    </head>
+
+    <!-- Page contents data -->
+    <body>
+        <!-- Headder contents -->
+        <header>
+        </header>
+
+        <!-- Main contents -->
+        <table cellspacing="0" cellpadding="0" id="main-contents">
+            <tbody>
+                <tr>
+                    <td id="line-side" valign="top"></td>
+                    <td id="line-main" valign="top">
+                        <div class="main-container main-text" style="text-indent: 0px;">
+                            <a href="../index.html" style="color: -webkit-link;">&lt;&nbsp;ホームへ戻る</a>
+                        </div>
+
+                        <h1>過去のNEWS</h1>
+                        <div class="main-container">
+                            年をクリックしてニュースを表示
+                        </div>
+
+                        <div class="main-container">
+                            <span class="news-button" onclick="listSwitch(2019)">2019年</span>
+                            <span class="news-button" onclick="listSwitch(2020)">2020年</span>
+                        </div>
+
+                        <div class="main-container" id="news-field">
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Footer contents -->
+        <footer>
+        </footer>
+    </body>
+</html>
