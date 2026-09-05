@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
     <!-- Page meta data -->
     <head>
         <meta charset="UTF-8">
@@ -11,7 +11,7 @@
                 border-left: 3px solid rgba(0, 0, 0, 1);
                 border-right: 1px solid rgba(0, 0, 0, 1);
                 border-bottom: 2px solid rgba(0, 0, 0, 1);
-                width: 100%;
+                width: 30%;
             }
             th.cell-base {
                 border-bottom: 4px double rgba(0, 0, 0, 1);
@@ -43,18 +43,18 @@
         <link rel="icon" type="image/svg" href="../items/icon.svg">
         <script type="text/javascript" charset="UTF-8" src="../items/base-script.js"></script>
         <meta name="author" content="Comm.Lab">
-        <meta name="description" content="Tokai University, School of Information and Telecommunication Engineering, Department of Information and Telecommunication Engineering, Satoshi Yamazaki Laboratory Member">
-        <meta name="keywords" content="Tokai University, Satoshi Yamazaki, Laboratory, Lab, Comm. Lab, Member">
+        <meta name="description" content="東海大学 情報通信学部 情報通信学科 山崎悟史 山崎研究室">
+        <meta name="keywords" content="東海大学, 情報通信学部, 情報通信学科, 山崎悟史, 山崎研究室, IoT, 無線通信, 無線ネットワーク, データサイエンス">
         <meta name="format-detection" content="telephone=no">
-        <meta property="og:title" content="Member - Comm. Lab.">
+        <meta property="og:title" content="メンバー - Comm. Lab.">
         <meta property="og:type" content="article">
-        <meta property="og:description" content="In our laboratory, we are taking theoretical and practical approaches to the creation of new wireless communication networks and to data-science-based knowledge discovery. Through these works, we aim to contribute to progress in Internet of Things (IoT) and cyber physical system (CPS) with a slight effort.">
-        <meta property="og:site_name" content="Yamazaki Lab Homepage - Comm. Lab.">
-        <meta property="og:image" content="../items/logo_en.svg">
+        <meta property="og:description" content="当研究室では、主に新たな無線通信方式の創出とセンサデータの統計的解析に基づく知識発見の実現に向けて、理論と実際の両面から研究を進めています。これらの成果を通じて、微力ながらIoT/CPSの進展に寄与することを目標としています。">
+        <meta property="og:site_name" content="山崎研究室HP - Comm. Lab.">
+        <meta property="og:image" content="../items/logo_ja.svg">
         <link rel="alternate" hreflang="ja" href="http://user.numazu-ct.ac.jp/~s-yamazaki/ja/member.html">
         <link rel="alternate" hreflang="en" href="http://user.numazu-ct.ac.jp/~s-yamazaki/en/member.html">
         <link rel="alternate" hreflang="x-default" href="http://user.numazu-ct.ac.jp/~s-yamazaki/en/member.html">
-        <title>Member - Comm. Lab.</title>
+        <title>メンバー - Comm. Lab.</title>
     </head>
 
     <!-- Page contents data -->
@@ -69,22 +69,22 @@
                 <tr>
                     <td id="line-side" valign="top"></td>
                     <td id="line-main" valign="top">
-                        <h1>Staff</h1>
+                        <h1>教員</h1>
                         <div class="main-container main-text" style="text-indent: 0px;">
-                            Satoshi Yamazaki<br><br>
+                            山崎 悟史<br>Satoshi Yamazaki<br><br>
                             Researchmap<br>
-                            <a href="https://researchmap.jp/7000002644/?lang=english" target="blank">https://researchmap.jp/7000002644/?lang=english</a>&nbsp;(Outside link)<br><br>
+                            <a href="https://researchmap.jp/7000002644/?lang=japanese" target="blank">https://researchmap.jp/7000002644/?lang=japanese</a>&nbsp;(外部リンク)<br><br>
                             KAKEN<br>
-                            <a href="https://kaken.nii.ac.jp/en/search/?qg=%E5%B1%B1%E5%B4%8E%E6%82%9F%E5%8F%B2" target="blank">https://kaken.nii.ac.jp/en/search/?qg=Satoshi Yamazaki</a>&nbsp;(Outside link)
+                            <a href="https://kaken.nii.ac.jp/ja/search/?qg=%E5%B1%B1%E5%B4%8E%E6%82%9F%E5%8F%B2" target="blank">https://kaken.nii.ac.jp/ja/search/?qg=山崎悟史</a>&nbsp;(外部リンク)
                         </div>
 
-                        <h1>Current students</h1>
+                        <h1>在校生</h1>
                         <div class="main-container main-text" style="text-indent: 0px;">
                             <table cellspacing="0" cellpadding="0" class="table-base">
                                 <thead>
                                     <tr>
-                                        <th class="cell-base cell-left">Grade</th>
-                                        <th class="cell-base cell-right">Number of students</th>
+                                        <th class="cell-base cell-left">学年</th>
+                                        <th class="cell-base cell-right">人数</th>
                                     </tr>
                                     <tr>
                                         <td class="cell-base cell-left">M2</td>
