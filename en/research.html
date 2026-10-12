@@ -35,90 +35,184 @@
                     <td id="line-side" valign="top"></td>
                     <td id="line-main" valign="top">
                         <h1>Introduction to Our Research</h1>
+                        <style>
+                            .main-text p {
+                                margin: 0;
+                                text-indent: 1em;
+                                text-align: justify;
+                                text-justify: inter-word;
+                                hyphens: auto;
+                            }
+                        </style>  
                         <div class="main-container">
-                            <div class="main-media-right">
+                            <!-- <div class="main-media-right">
                                 <a href="../medias/res_pic1.gif"><img class="media-put-wid" src="../medias/res_pic1.gif"></a>
-                            </div>
-                            <div class="main-text">
-                                Everything is connected to the internet wirelessly, and the IoT that has dramatically improved our lives is expanding through artificial intelligence (AI) analysis of large quantities of data (often referred to as “Big-data”) collected from various devices.
-                                The right figure shows the concept of such a CPS (Cyber Physical System).
-                                The figure on the right shows the concept of such a CPS. Our laboratory is proceeding with the construction of a theoretical foundation and system development related to wireless communication networks and data statistical analysis (corresponding to steps (2) and (4) in the figure), which are the basic technologies underlying the IoT and CPS.
-                                Furthermore, we are aware of cross-disciplinary viewpoints without being caught up in the framework of prescribed fields, for example, we are integrating statistical signal processing methods employed in wireless communication to IoT data analysis.
+                            </div> -->
+                            <div class="main-text" lang="en">
+                                <p>A world is emerging in which all kinds of things are connected to the Internet through wireless communications, and the analysis and utilization of data collected from diverse devices improve our quality of life and transform society.
+                                A wide variety of wireless communication systems, including mobile communication systems, wireless local area networks (WLANs), and low-power wide-area networks (LPWANs), provide essential information and communication infrastructure for realizing the Internet of Things (IoT) and cyber-physical systems (CPS).</p>
+
+                                <p>Our laboratory studies distributed wireless networks, in which multiple nodes operate in a distributed and cooperative manner, through theoretical analysis, computer simulations, and experiments using real-world systems, while also leveraging machine learning.
+                                These three research approaches are closely interconnected. For example, findings obtained through experiments and computer simulations are incorporated into mathematical models, while design and control methods derived from these models are applied to practical systems.
+                                Furthermore, we seek to extend the findings and methods obtained from research on individual communication systems, such as LPWANs, cellular communication systems including local 5G, and WLANs, to other communication systems, with a view toward developing more broadly applicable concepts and design and evaluation methods.</p>
+
+                                <p>Through these research activities, we aim to contribute to the realization and further development of IoT and CPS.</p>
                             </div>
                         </div>
 
-                        <h1>Theme 1: Multidimensional Wireless Communication Systems</h1>
+                        <h1>Theme 1: Low-Power Wide-Area Networks (LPWANs)</h1>
+                        <style>
+                            .main-text p {
+                                margin: 0;
+                                text-indent: 1em;
+                                text-align: justify;
+                                text-justify: inter-word;
+                                hyphens: auto;
+                            }
+                        </style>  
                         <div class="main-container">
                             <div class="main-media-right">
-                                <a href="../medias/res_pic2.gif"><img class="media-put-mid" src="../medias/res_pic2.gif"></a>
+                                <a href="../medias/LPWAN.png"><img class="media-put-mid" src="../medias/LPWAN.png"></a>
                             </div>
-                            <div class="main-text">
-                                Digital wireless communication technology is indispensable for building a free, safe and secure society such as mobile phones and terrestrial TV broadcasting.
-                                In a wireless environment, information is transmitted using an open space as a transmission medium, so the influence of fading that causes the envelope and phase of the received signal to change abruptly becomes prominent due to reflections from buildings and the movement of moving objects.
-                                As compensation technology, we have studied and proposed channel equalization technology based on statistical signal processing in the time domain and frequency domain.
-                                In recent years, we have been aiming to propose a new wireless communication method centered on the spatial domain (MIMO that adds fading in some situations).
+                            <div class="main-text" lang="en">
+                                <p>Low-power wide-area networks (LPWANs) are wireless networking technologies designed for IoT applications that provide wide-area coverage with low power consumption.
+                                We analyze and evaluate radio propagation characteristics and communication quality, focusing primarily on LoRaWAN and Sigfox, which operate in unlicensed frequency bands.
+                                Specifically, our research includes predicting the battery life of end devices based on models of their energy consumption mechanisms and improving the reliability and energy efficiency of downlink communications that support device control in CPS.</p>
+                                <p>As IoT use cases, we consider smart cities in densely built-up urban areas and smart agriculture in rural areas.
+                                In the area of smart agriculture, we analyzed data collected using an IoT system deployed in a real-world environment through machine learning and developed a yield prediction model for fruit crops grown in controlled environments.
+                                Furthermore, toward integrated sensing and communication (ISAC), which has recently attracted considerable attention, we are exploring the potential of sensing using low-power wide-area wireless signals.</p>
                             </div>
                         </div>
                         <div class="main-text-keyword">
-                            <b>Keywords</b>&nbsp;: Fading, Statistical signal processing, Multi-antenna
+                            <b>Keywords</b>&nbsp;: Low-Power Wide-Area Wireless Signals, Real-World IoT, Energy Consumption Modeling, Downlink Control, Integrated Sensing and Communication (ISAC)
                         </div>
                         <div class="main-container">
                             <b>Main literature</b>
                             <ol class="main-reflist">
-                                <li class="main-reflist-cnt">K.Morioka, S.Yamazaki, D.Asano,“Improving Spectral Efficiency of Non-Orthogonal Space Time Block Coded-Continuous Phase Modulation,”IEICE Trans. Comm., Vol.E101-B, No.9, pp.2024-2032, Sep. 2018.</li>
-                                <li class="main-reflist-cnt">S.Yamazaki, D.Asano,“A Serial Unequal Error Protection Codes System using MMSE-FDE for Fading Channels,”IEICE Trans. on Fundamentals, Vol.E95-A, No.7, pp.1205～1210, Jul. 2012.</li>
-                                <li class="main-reflist-cnt">S.Yamazaki, D.Asano,“Single-carrier Transmission Frequency-domain Equalization Based on a Winner Filter for Broadband Wireless Communications,”IEEJ Trans. on Electrics, Information and Systems, vol.131, No.7 pp. 1384～1392.</li>
+                                <li class="main-reflist-cnt">S. Yamazaki, M. Aono, Y. Kiriiwa, “A Strawberry Yield Prediction Scheme Suitable for Non-Parametric Regression Using General-Purpose IoT Nodes,” <i>Discover Internet of Things</i>, vol. 5, Article 135, Nov. 2025.</li>
+                                <li class="main-reflist-cnt">S. Yamazaki, D. Ogura, “Modeling a LoRaWAN Energy Consumption via Field Experiments,” <i>IEICE Transactions on Communications</i>, vol. E108-B, no. 9, 8 pages, Sep. 2025.</li>
+                                <li class="main-reflist-cnt">S. Yamazaki, Y. Nakajima, “A Sigfox Energy Consumption Model via Field Trial: Case of Smart Agriculture,” <i>IEEE Access</i>, vol. 11, pp. 145320–145330, 2023.</li>
                             </ol>
                         </div>
 
-                        <h1>Theme 2: Wireless Distributed Network with Excellent Energy Efficiency</h1>
+                        <h1>Theme 2: Distributed Machine Learning over Wireless Networks</h1>
+                        <style>
+                            .main-text p {
+                                margin: 0;
+                                text-indent: 1em;
+                                text-align: justify;
+                                text-justify: inter-word;
+                                hyphens: auto;
+                            }
+                        </style>  
                         <div class="main-container">
                             <div class="main-media-right">
-                                <a href="../medias/res_pic3.gif"><img class="media-put-mid" src="../medias/res_pic3.gif"></a>
+                                <a href="../medias/ML for Comm.png"><img class="media-put-mid" src="../medias/ML for Comm.png"></a>
                             </div>
-                            <div class="main-text">
-                                In the future, wireless communication is expected to increase data communication speeds, and traffic is expected to increase compared to that in the past; therefore, there is a concern that wireless energy consumption will increase.
-                                This prospect is especially a problem for battery-powered wireless nodes.
-                                Therefore, we are proceeding with dynamics analysis and protocol design of wireless distributed networks that will further improve wireless energy utilization efficiency [bits / J].
-                                So far, we have been comparing the performance of direct communication and multi-hop communication, analyzing the throughput of interlaced multi-hop communication, and analyzing the throughput of Wi-Fi using frame aggregation.
-                                In addition, we compared the performance of ad-hoc network protocols and a simple flooding scheme.
-                                Although these seem to be different problems at first glance, we are conducting research with a unified viewpoint of improving throughput and reducing energy consumption by improving wireless energy efficiency.
+                            <div class="main-text" lang="en">
+                                <p>Distributed machine learning enables multiple devices and computers to collaboratively train machine learning models.
+                                Our research focuses on wireless federated learning, in which multiple wireless devices participate in the learning process.
+                                We are developing a framework for comparing and evaluating wireless federated learning and conventional centralized learning.
+                                We are also investigating client selection methods based on wireless communication quality.
+                                In addition, from the perspective of sharing learning tasks between devices and a server, we are exploring wireless split learning.
+                                In this approach, a deep neural network is partitioned between the device side and the server side for collaborative training.</p>
+                                <p>We have also developed a prototype edge AI system designed to operate on IoT devices.
+                                The system performs recognition and inference on the device using deep metric learning and transmits only the resulting information, thereby reducing the amount of communication data.
+                                Toward its application to smart agriculture, we plan to conduct a detailed performance evaluation of the proposed system and further improve its design.</p>
                             </div>
-                        </div>
                         <div class="main-text-keyword">
-                            <b>Keywords</b>&nbsp;: Throughput, Power consumption, Energy efficiency，WiFi，LPWA
+                            <b>Keywords</b>&nbsp;: Wireless Communication Environments, Deep Learning, Federated Learning, Split Learning, Metric Learning
                         </div>
                         <div class="main-container">
                             <b>Main literature</b>
                             <ol class="main-reflist">
-                                <li class="main-reflist-cnt">S.Yamazaki, R.Asakura, K.Ohuchi, “Throughput Analysis of Dynamic Multi-Hop Shortcut Communications for a Simple Model,” <i>IEICE Trans. on Fundametals</i>,vol.E103-A,no.07, pp.-,Jul. 2020.</li>
-                                <li class="main-reflist-cnt">S.Yamazaki, K.Ohuchi，“Performance Analysis of Total Power Consumption in Linear Multi-hop Networks,”International Journal of Wireless Personal Communications 100(2) 337-349, Nov.2017.</li>
+                                <li class="main-reflist-cnt">Y. Yanagi, S. Yamazaki, “Client Selection Balancing Communication Rate and Participation for Wireless Federated Learning,” <i>2026 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)</i>, 6 pages, Nov. 2026.</li>
+                                <li class="main-reflist-cnt">Y. Kasuya, S. Yamazaki, “A Processing-Time Evaluation Framework Based on Channel Capacity for Wireless Federated Learning,” <i>2026 International Symposium on Information Theory and Its Applications (ISITA)</i>, 6 pages, Nov. 2026.</li>
+                                <li class="main-reflist-cnt">S. Yamazaki, T. Furuki, “Client Selection Based on Channel Capacity for Federated Learning Under Wireless Channels,” <i>28th Asia-Pacific Conference on Communications (APCC 2023)</i>, Sydney, Australia, 6 pages, Nov. 19–22, 2023.</li>
                             </ol>
                         </div>
 
-                        <h1>Theme 3: Data Science for an Agricultural IoT</h1>
+                        <h1>Theme 3: Private 5G</h1>
+                        <style>
+                            .main-text p {
+                                margin: 0;
+                                text-indent: 1em;
+                                text-align: justify;
+                                text-justify: inter-word;
+                                hyphens: auto;
+                            }
+                        </style>
                         <div class="main-container">
                             <div class="main-media-right">
-                                <a href="../medias/res_pic4.jpg"><img class="media-put-mid" src="../medias/res_pic4.jpg"></a>
+                                <a href="../medias/L5G.png"><img class="media-put-mid" src="../medias/L5G.png"></a>
                             </div>
-                            <div class="main-text">
-                                Since many disasters have caused serious damage to crop harvesting, etc., we focused on the agricultural field as a use case of IoT / AI utilization.
-                                We aim to shift to digital-based agriculture. In the field of agriculture, the staple crops such as rice and rice, which are harvested once per season, have been relatively well researched.
-                                On the other hand, we are promoting research that actively uses information statistics and communication technology for a comparatively unexamined crop, cultivated strawberries, which are harvested multiple times in a season.
-                                Specifically, by using the proposed cultivation model and statistical learning on the data collected from an IoT network built in the local farm facilities, we can gain insight into new techniques and models that contribute to crop cultivation, such as yield prediction.
+                            <div class="main-text" lang="en">
+                                <p>Local 5G is a private 5G network that companies, universities, and other organizations can deploy and operate on their own premises.
+                                Our research focuses on a local 5G system deployed in a structurally complex underground indoor area at the Shinagawa Campus of Tokai University.
+                                The system consists of multiple radio units (RUs) distributed throughout the area.
+                                Each cell is assigned a different physical cell identity (PCI), while all cells operate on the same frequency.
+                                We focus particularly on downlink inter-cell co-channel interference in this environment.
+                                By measuring and analyzing radio propagation characteristics and communication quality, we aim to establish an optimal coverage design method that takes such interference into account.</p>
+                                <p>We also focus on 5G fixed wireless access (5G FWA), in which local 5G is used as a backhaul connection and Wi-Fi devices are connected through customer premises equipment (CPE).
+                                We evaluate the effects of the additional Wi-Fi connection on quality of service (QoS) and quality of experience (QoE) by comparing this configuration with direct device connections to local 5G.
+                                We also plan to investigate techniques for improving QoS and QoE in 5G FWA environments.</p>
                             </div>
                         </div>
                         <div class="main-text-keyword">
-                            <b>Keywords</b>&nbsp;: Agricultural IoT, Statistical learning，Fruit crops grown in a house
+                            <b>Keywords</b>&nbsp;: Private 5G, Distributed RUs, Inter-Cell Co-Channel Interference, 5G Fixed Wireless Access (5G FWA), QoS/QoE
                         </div>
                         <div class="main-container" style="margin-bottom: 60px;">
                             <b>Main literature</b>
                             <ol class="main-reflist">
-                                <li class="main-reflist-cnt">Y.Nakajima, W.Yamanouchi, S.Yamazaki “ On Transmission Performance of Sigfox in Agricultural IoT Applications,” The 6th IEEJ International Workshop on Sensing, Actuation, Motion Control, and Optimization (SAMCON2020), 2 pages (P-23), Japan, 14-16 March 2020.</li>
-                                <li class="main-reflist-cnt">S.Yamazaki, M.Aono, Y.Kiriiwa，“Estimation Evaluation of Strawberry Harvest Based on Regression Analysis with Integrated and Different Values,” IEICE Trans. Info. and Sys. Vol.J101-D, No.10, pp.1466-1470, Oct. 2018. (In Japanese)</li>
-                                <li class="main-reflist-cnt">T.Ishida, S.Yamazaki, A.Daikoku,“Implemention and Field Experiments of an Open M2M Sensor Network for Smart Agriculture,” Proc. of 2015 IEICE International Workshop on Smart Info-Media Systems in Asia (SISA2015).</li>
+                                <li class="main-reflist-cnt">S. Yamazaki, M. Sato, K. Morioka, and K. Hamamoto, “Advances in Digital Wireless Communication Technologies: Overview, Trends, and Practical Examples of Local 5G,” <i>IEEJ Transactions on Electronics, Information and Systems</i>, vol. 146, no. 10, pp. 932–942, October 2026 (in Japanese).</li>
                             </ol>
                         </div>
+
+                        <h1>Theme 4: Wireless Local Area Networks (WLANs)</h1>
+                        <style>
+                            .main-text p {
+                                margin: 0;
+                                text-indent: 1em;
+                                text-align: justify;
+                                text-justify: inter-word;
+                                hyphens: auto;
+                            }
+                        </style>
+                        <div class="main-container">
+                            <div class="main-media-right">
+                                <a href="../medias/Wi-Fi.png"><img class="media-put-mid" src="../medias/Wi-Fi.png"></a>
+                            </div>
+                            <div class="main-container main-text" lang="en">
+                                <p>Wireless local area networks (WLANs), commonly known as Wi-Fi, primarily operate in unlicensed frequency bands.
+                                Along with cellular communication systems, WLANs are widely used in homes, universities, companies, public facilities, and many other locations.
+                                We develop mathematical models of the Distributed Coordination Function (DCF), an autonomous distributed medium access control mechanism adopted in IEEE 802.11.
+                                Using theoretical analysis and computer simulations, we evaluate performance metrics such as throughput, delay, and frame collisions, with the aim of developing new performance improvement methods.
+                                As one example, we proposed a frame aggregation method that transmits multiple data frames together and demonstrated that it can significantly improve throughput compared with conventional methods.</p>
+                                <p>We have also studied multi-hop wireless communications and device-to-device networks, in which multiple wireless nodes relay data among one another, as commonly seen in mesh Wi-Fi networks.
+                                Through these studies, we have clarified how route establishment methods and network configurations affect wireless energy efficiency [bits/J] and have proposed methods for improving it.</p>
+                            </div>
+                        </div>
+                        <div class="main-text-keyword">
+                            <b>Keywords</b>&nbsp;: Autonomous Distributed Wireless Access Control, Theoretical Performance Analysis, Throughput, Wireless Energy Efficiency [bits/J], Device-to-Device Communications
+                        </div>
+                        <div class="main-container" style="margin-bottom: 60px;">
+                            <b>Main literature</b>
+                            <ol class="main-reflist">
+                                <li class="main-reflist-cnt">K. Suzuki, S. Yamazaki, “Throughput Maximization Based on Optimized Frame-Aggregation Levels for IEEE 802.11 WLANs,” <i>IEEE Communications Letters</i>, vol. 25, no. 5, pp. 1725–1728, Jan. 2021.</li>
+                                <li class="main-reflist-cnt">S. Yamazaki, Y. Abiko, H. Mizuno, “A Simple and Energy-Efficient Flooding Scheme for Wireless Routing,” <i>Wireless Communications and Mobile Computing</i>, vol. 2020, Article ID 8832602, 9 pages, Aug. 2020.</li>
+                                <li class="main-reflist-cnt">S. Yamazaki, R. Asakura, K. Ohuchi, “Throughput Analysis of Dynamic Multi-Hop Shortcut Communications for a Simple Model,” <i>IEICE Transactions on Fundamentals</i>, vol. E103-A, no. 7, pp. 951–954, Jul. 2020.</li>
+                            </ol>
+                        </div>
+
+                        <h1>Demos</h1>
+                        <div class="main-container">
+                            <div class="main-reflist" style="font-size: 12px;">
+                                <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/KUlcsi4qhtw">Transforming a Line-Tracing Robot into a Car</a>&nbsp;(External Link)<br>
+                                <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/FVFFqA9V6uA">Wireless Control Using a Smartphone</a>&nbsp;(External Link)<br>
+                                <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/cEeUQPEKJdw">IoT Mechatronics Using the MQTT Protocol</a>&nbsp;(External Link)
+                            </div>
+                        </div>
+
                     </td>
                 </tr>
             </tbody>
