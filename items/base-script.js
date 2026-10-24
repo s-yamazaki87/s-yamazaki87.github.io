@@ -19,7 +19,7 @@ const menuListHTML = isEnglish ? `
         <a style="text-decoration: none;" href="` + path + `research.html"><div class="line-side-menu-box">Research</div></a>
         <a style="text-decoration: none;" href="` + path + `member.html"><div class="line-side-menu-box">Member</div></a>
         <a style="text-decoration: none;" href="` + path + `achieve.html"><div class="line-side-menu-box">Achievement</div></a>
-        <a style="text-decoration: none;" href="` + path + `links-access.html"><div class="line-side-menu-box">Access / Links</div></a>
+        <a style="text-decoration: none;" href="` + path + `links-access.html"><div class="line-side-menu-box">Access</div></a>
         <a style="text-decoration: none;" href="` + path + `../ja/index.html"><div class="line-side-menu-box">日本語</div></a>
     </div>` : `
     <div id="menu-container">
@@ -30,7 +30,7 @@ const menuListHTML = isEnglish ? `
 <!--
         <a style="text-decoration: none;" href="` + path + `../nct/local.html"><div class="line-side-menu-box">学内限定</div></a>
 -->
-        <a style="text-decoration: none;" href="` + path + `links-access.html"><div class="line-side-menu-box">アクセス・リンク</div></a>
+        <a style="text-decoration: none;" href="` + path + `links-access.html"><div class="line-side-menu-box">アクセス</div></a>
         <a style="text-decoration: none;" href="` + path + `../en/index.html"><div class="line-side-menu-box">English</div></a>
     </div>`;
 
